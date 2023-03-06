@@ -1,0 +1,64 @@
+
+.sidebar  {
+  position: fixed;
+  border-right: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  width: 300px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+}
+
+.twitter-logo {
+  width: 35px;
+}
+
+.twitter-logo-container {
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.nav-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-container img  {
+  margin-left: 50px;
+  width: 25px;
+}
+
+.nav-container p  {
+  font-family: roboto;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.nav-container button {
+  color: white;
+  align-self: center;
+  margin-top: 10px;
+  background-color: rgb(41, 137, 226);
+  border: none;
+  border-radius: 30px;
+  padding: 15px 100px;
+  font-weight: 400;
+}
+
+.home-container{
+  align-items: center;
+  display: flex;
+}
+
+.home-text{
+  color: rgb(41, 137, 226);
+}
+
+/* So i decide to put anoth width */
+.profile-picture{
+  border-radius: 20px;
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+}
